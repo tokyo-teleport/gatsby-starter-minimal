@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-minimal",
+  "name": "tokyo-teleport",
   "version": "1.0.0",
   "private": true,
-  "description": "A Gatsby starter with no plugins and a single welcome page.",
-  "author": "Laurie Barth",
+  "description": "tokyo-teleport",
   "keywords": [
     "gatsby"
   ],
@@ -14,9 +13,14 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
-  "license": "0BSD",
   "dependencies": {
     "gatsby": "^5.2.0",
+    "gatsby-plugin-image": "^3.2.0",
+    "gatsby-plugin-manifest": "^5.2.0",
+    "gatsby-plugin-sharp": "^5.2.0",
+    "gatsby-plugin-sitemap": "^6.2.0",
+    "gatsby-source-filesystem": "^5.2.0",
+    "gatsby-transformer-sharp": "^5.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
